@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+background-img img {
+    width: 100%;
+    height: 100vh;
+}
+.Mainbox{
+    display: inline-block;
+    position:absolute;
+    width: 100%;
+    height: 100vh;
+}
+.santa{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    animation: moving;
+    animation-duration: 20s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+@keyframes moving{
+    0% { right: 0%; }
+    100% { right: 100%;}
+}
+.HNY{
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+        
+}
+.bob{
+    position: absolute;
+    bottom: 1px;
+    animation: moving;
+    animation-direction: normal;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.salut{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+}
+.salut2{
+    position: absolute;
+    right: 2%;
+    top: 20%;
+}
